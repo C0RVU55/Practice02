@@ -28,6 +28,7 @@ public class Ex10 {
 				break;
 			default:
 				System.out.println("잘못 입력하셨습니다.");
+				break; //break 까먹지 말기.
 		}
 		
 		sc.close();

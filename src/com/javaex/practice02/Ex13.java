@@ -19,6 +19,15 @@ public class Ex13 {
 			result=7*x+2;
 		}
 		
+		/*제곱근 연산자 사용.
+		
+		if(x<=0) {
+			result=Math.pow(x, 3)-9*x+2;
+		}else {
+			result=7*x+2;
+		}
+		*/
+		
 		System.out.println("계산 결과는 "+result+"입니다.");
 		
 		sc.close();
