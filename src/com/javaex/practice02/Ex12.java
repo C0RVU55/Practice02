@@ -20,7 +20,7 @@ public class Ex12 {
 		System.out.print("숫자2: ");
 		n2=sc.nextDouble();
 		
-		if(n2!=0) {
+		if(n1!=0||n2!=0) {
 			switch(mark) {
 				case "+":
 					System.out.println("결과는 "+(n1+n2));
